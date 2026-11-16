@@ -1,0 +1,6 @@
+text,actual,distilbert_prediction,roberta_prediction,comment
+"yes , i have given this movie a rating of zero . but fans of the show should not consider this a diss . consider it 'perfection . '",negative,positive,negative,The two models predicted different sentiments.
+"in a normal screen process , these bromides would be barely enough to sustain an interstitial program on the discovery channel . but in imax 3-d , the clichés disappear into the vertiginous perspectives opened up by the photography .",positive,negative,positive,The two models predicted different sentiments.
+predecessors the mummy and the mummy returns stand as intellectual masterpieces next to the scorpion king .,negative,negative,positive,The two models predicted different sentiments.
+"lookin' for sin , american-style ? try hell house , which documents the cautionary christian spook-a-rama of the same name .",positive,negative,positive,The two models predicted different sentiments.
+"the best drug addition movies are usually depressing but rewarding . quitting , however , manages just to be depressing , as the lead actor phones in his autobiographical performance .",negative,positive,negative,The two models predicted different sentiments.

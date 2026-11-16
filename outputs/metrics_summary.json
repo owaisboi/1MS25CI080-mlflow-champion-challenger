@@ -1,0 +1,22 @@
+[
+    {
+        "model": "DistilBERT",
+        "hf_model_id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+        "accuracy": 0.91,
+        "precision": 0.9361702127659575,
+        "recall": 0.88,
+        "macro_f1": 0.9099189270343309,
+        "avg_latency_ms": 13.51886800000102,
+        "total_inference_s": 1.351886800000102
+    },
+    {
+        "model": "RoBERTa",
+        "hf_model_id": "siebert/sentiment-roberta-large-english",
+        "accuracy": 0.94,
+        "precision": 0.9583333333333334,
+        "recall": 0.92,
+        "macro_f1": 0.9399759903961584,
+        "avg_latency_ms": 96.83387000000039,
+        "total_inference_s": 9.683387000000039
+    }
+]
