@@ -124,30 +124,12 @@ ChatGPT was used as an AI assistant for guidance, code explanations, debugging a
 7. Project Structure
 
 ChampionChallenger/
-│
 ├── data/
-│   ├── eval_inputs.csv
-│   ├── new_data.csv
-│   └── prepare_dataset.py
-│
 ├── outputs/
-│   ├── plots/
-│   ├── distilbert_predictions.csv
-│   ├── roberta_predictions.csv
-│   ├── metrics_summary.csv
-│   ├── metrics_summary.json
-│   ├── model_disagreements.csv
-│   └── new_data_predictions.csv
-│
 ├── screenshots/
-│   ├── 01_model_registry_aliases.png
-│   ├── 02_model_comparison.png
-│   └── 03_new_data_prediction.png
-│
 ├── evaluate.py
 ├── register_champion.py
 ├── predict_from_mlflow.py
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
