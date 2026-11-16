@@ -63,7 +63,12 @@ Open the following address in your browser:
 
 `http://127.0.0.1:5000`
 
+### Step 6: Predict on New Data
 
+Run the prediction script to test the registered Champion model on new reviews.
+
+```bash
+python predict_from_mlflow.py
 ```
 
 The script loads the Champion using its MLflow registry alias and predicts sentiment on six new examples. The predictions are saved to `outputs/new_data_predictions.csv`.
