@@ -121,15 +121,35 @@ This project was developed individually as part of the Skill Lab assignment on M
 
 ChatGPT was used as an AI assistant for guidance, code explanations, debugging assistance and documentation support. The implementation and results were tested in the local development environment.
 
-7. Project Structure
+## 7. Project Structure
 
+```text
 ChampionChallenger/
+│
 ├── data/
+│   ├── eval_inputs.csv
+│   ├── new_data.csv
+│   └── prepare_dataset.py
+│
 ├── outputs/
+│   ├── plots/
+│   ├── distilbert_predictions.csv
+│   ├── roberta_predictions.csv
+│   ├── metrics_summary.csv
+│   ├── metrics_summary.json
+│   ├── model_disagreements.csv
+│   └── new_data_predictions.csv
+│
 ├── screenshots/
+│   ├── 01_model_registry_aliases.png
+│   ├── 02_model_comparison.png
+│   └── 03_new_data_prediction.png
+│
 ├── evaluate.py
 ├── register_champion.py
 ├── predict_from_mlflow.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
+```
 ```
